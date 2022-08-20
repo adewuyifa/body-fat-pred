@@ -10,7 +10,7 @@ import numpy as np
 # App dev
 navbar = dbc.NavbarSimple(
     brand="Body Fat Predictor",
-    brand_href="#",
+    brand_href="https://bodyfat-pred.herokuapp.com/",
     color="orange",
     dark=True,
     brand_style={'fontSize': 30, 'fontWeight': 'bold'}
