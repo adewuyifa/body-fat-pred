@@ -18,7 +18,7 @@ navbar = dbc.NavbarSimple(
 
 question_one = html.Div(
     [
-        dbc.Label("1. What is your Density (determined from underwater weighing)"),
+        dbc.Label("1. What is your Density (determined from underwater weighing)?"),
         dbc.Input(
             id='density',
             type='float',
